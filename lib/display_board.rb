@@ -1,5 +1,5 @@
 rows = ["  |   |   ", "------------", "   |   |   ", "------------", "   |   |   "]
 
-def display_board(board)
-  puts board
+def display_board(rows)
+  puts rows
 end
