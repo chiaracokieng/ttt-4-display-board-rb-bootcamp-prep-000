@@ -1,6 +1,6 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-rows = [" #{board[0]} |   |   ", "------------", "   |   |   ", "------------", "   |   |   "]
+cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" #{cells[0]} |   |   ", "------------", "   |   |   ", "------------", "   |   |   "]
 
-def display_board(rows)
-  puts rows
+def display_board(board)
+  puts board
 end
